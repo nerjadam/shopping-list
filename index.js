@@ -36,4 +36,4 @@ app.use(bodyParser.urlencoded({
 	 console.log(arr);
  });
  
- app.listen(8000);
+ app.listen(process.env.PORT||8000);
